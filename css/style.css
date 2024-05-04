@@ -6,9 +6,57 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background: #f4f4f4;
+    width: 100%;
+    margin: 0 auto;
 }
 
-/*Estrutura*/
+/*Estrutura tela inicial*/
+#container{
+    margin: 0;
+    padding: 0;
+    height: 800px;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #023E7D;
+    color: #fff;
+}
+
+
+#button{
+    width: 250px;
+    height: 50px;
+    background-color: #FFBC42;
+    border: 1px solid orange;
+    border-radius: 10px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#button a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    padding: 10px 80px;
+}
+
+.centralizar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/*Estrutura tela login*/
+
+
+
 
 #logo{
     background: gray;
@@ -62,7 +110,7 @@ ul{
     float: left;
     border-radius: 30px;
     box-shadow: 3px 3px 10px black;
-    width: 100%;
+    width: 90%;
     display: flex;
     align-items: center;
     justify-content: center;
